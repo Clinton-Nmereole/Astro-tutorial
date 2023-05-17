@@ -10,11 +10,17 @@ const navitems = ["About Me", "Projects","Skills","Experience"];
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{title}</title>
+          <style>
+               .navbar {
+                    display: flex;
+                    font-size: 4rem;
+               }
+          </style>
 	</head>
 	<body>
 		<h1>{title}</h1>
-          <nav>
+          <nav class="navbar">
                <ul>
                     {navitems.map((navitem) => <li class="navitem">{navitem}</li>)}
                </ul>
