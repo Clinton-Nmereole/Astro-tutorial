@@ -1,5 +1,7 @@
 ---
-const title = "Clinton Nmereole"
+import "../styles/global.css";
+const title = "Clinton Nmereole";
+const navitems = ["About Me", "Projects","Skills","Experience"];
 ---
 
 <html lang="en">
@@ -14,10 +16,7 @@ const title = "Clinton Nmereole"
 		<h1>{title}</h1>
           <nav>
                <ul>
-                  <li>About Me</li>
-                  <li>Projects</li>
-                  <li>Skills</li>
-                  <li>Experience</li>
+                    {navitems.map((navitem) => <li class="navitem">{navitem}</li>)}
                </ul>
           </nav>
 	</body>
