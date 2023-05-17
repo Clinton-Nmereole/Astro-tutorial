@@ -12,16 +12,17 @@ const navitems = ["About Me", "Projects","Skills","Experience"];
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
           <style>
-               .navbar {
+               .navitems {
+                    font-size: 2rem;
                     display: flex;
-                    font-size: 4rem;
+                    justify-content: space-between;
                }
           </style>
 	</head>
 	<body>
 		<h1>{title}</h1>
           <nav class="navbar">
-               <ul>
+               <ul class="navitems">
                     {navitems.map((navitem) => <li class="navitem">{navitem}</li>)}
                </ul>
           </nav>
