@@ -1,7 +1,6 @@
 ---
 import "../styles/global.css";
-const title = "Clinton Nmereole";
-const navitems = ["About Me", "Projects","Skills","Experience"];
+const title = "Welcome!";
 ---
 
 <html lang="en">
@@ -25,10 +24,12 @@ const navitems = ["About Me", "Projects","Skills","Experience"];
 	</head>
 	<body>
 		<h1>{title}</h1>
-          <nav class="navbar">
-               <ul class="navitems">
-                    {navitems.map((navitem) => <li class="navitem">{navitem}</li>)}
-               </ul>
-          </nav>
+
 	</body>
+     <style>
+          h1 {
+               display: flex;
+               justify-content: center;
+          }
+     </style>
 </html>
