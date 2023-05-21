@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 const title = "Welcome!";
+const navitems = ["Home", "Skills", "Experience", "Projects", "Contact"]
 ---
 
 <html lang="en">
@@ -52,17 +53,12 @@ const title = "Welcome!";
           </style>
 	</head>
 	<body>
-          <div class="header">
-		     <h1>{title}</h1>
-          </div>
-          <div class="about">
-              <section class="sec1">
-                    <h2>About Me</h2>
-                    <p>Hello, my name is Chinedum Nmereole and I'm a web developer and software engineer.<p>
-              </section>
-              <section class="sec2">
-                    <img src="" alt="Image of myself here">
-              </section>
+          <div class="firsthalf">
+                <nav>
+                     <ul>
+                          {navitems.map((item) => <li>{item}</li> )}
+                     </ul>
+                </nav> 
           </div>
 	</body>
     
