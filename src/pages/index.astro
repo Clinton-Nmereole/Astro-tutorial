@@ -16,9 +16,10 @@ const navitems = ["Home", "Skills", "Experience", "Projects", "Contact"]
                     width: 100%;
                     height: 100vh;
                     background-image: url("../assets/webpage_model_in_red.jpg");
-                    background-size: 100%;
+                    background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
+                    box-sizing: border-box;
                }
                nav {
                     display: flex;
@@ -37,7 +38,7 @@ const navitems = ["Home", "Skills", "Experience", "Projects", "Contact"]
                 <img src="" alt="">
                 <nav>
                      <ul>
-                          {navitems.map((item) => <a><li>{item}</li></a> )}
+                          {navitems.map((item) => <li><a href="">{item}</a></li> )}
                      </ul>
                 </nav> 
           </div>
