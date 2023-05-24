@@ -4,7 +4,9 @@ const navitems = ["Home", "About", "Skills", "Projects"];
 ---
 
 <div class="nav-links">
-     {navitems.map((item) => <a href="">{item}</a>)}
+     <ul>
+          {navitems.map((item) => <li><a href="">{item}</a></li>)}
+     </ul>
 </div>
 
 <style>
