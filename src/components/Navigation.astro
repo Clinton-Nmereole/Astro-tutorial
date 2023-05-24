@@ -1,10 +1,15 @@
 ---
+const navitems = ["Home", "About", "Skills", "Projects"];
 
 ---
 
 <div class="nav-links">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/skills">Skills</a>
-  <a href="/projects">Projects</a>
+     {navitems.map((item) => <a href="">{item}</a>)}
 </div>
+
+<style>
+     .nav-links a{
+          text-decoration: none;
+          color: #fbeec1;
+     }
+</style>
