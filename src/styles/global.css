@@ -1,4 +1,6 @@
 html {
-  background-color: #161318;
+  background-image: url("../assets/dark_radial.jpg");
+  background-position: center;
+  background-size: cover;
   font-family: sans-serif;
 }
