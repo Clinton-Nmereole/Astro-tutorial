@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Navigation from "../components/Navigation.astro"; "../components/Navigation.astro";
 const title = "Welcome!";
+import modelImage from "../assets/male_model(without background) (1).png";
 ---
 
 <html lang="en">
@@ -12,12 +13,15 @@ const title = "Welcome!";
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
           <style> 
-               
+              .center-image{
+                    align-items: center;
+              } 
           </style>
 	</head>
 	<body>
           <Navigation/>
           <div class="center-image">
+               <img src={modelImage} alt="">
           </div>
 	</body>
     
