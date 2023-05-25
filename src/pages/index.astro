@@ -12,20 +12,24 @@ import modelImage from "../assets/male_model(without background) (1).png";
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-          <style> 
-              .center-image{
-                    width: 100%;
+          <style>
+               .second-row{
+                    display: flex;
+               }
+               .center-image{
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     margin-top: 20rem;
-              } 
+               }
           </style>
 	</head>
 	<body>
           <Navigation/>
-          <div class="center-image">
-               <img src={modelImage} alt="Model image">
+          <div class="second-row">
+               <div class="center-image">
+                    <img src={modelImage} alt="Model image">
+               </div>
           </div>
 	</body>
     
