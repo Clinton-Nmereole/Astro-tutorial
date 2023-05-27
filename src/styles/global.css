@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Lora&display=swap');
 
 
 *{
@@ -8,7 +9,8 @@
      box-sizing: border-box;
 }
 html {
-     font-family: 'Inknut Antiqua', sans-serif;
+     font-family: 'Inknut Antiqua', serif;
+     font-family: 'Lora', serif;
 }
 
 
