@@ -4,9 +4,7 @@ const navitems = ["Home", "About", "Skills", "Projects"];
 ---
 
 <nav class="nav-links">
-     <div></div>
-     <div></div>
-     <h4>Welcome and Hello World</h4>
+     <h4>Welcome and Hello World!</h4>
      <ul>
           {navitems.map((item) => <li><a href="">{item}</a></li>)}
      </ul>
@@ -17,11 +15,10 @@ const navitems = ["Home", "About", "Skills", "Projects"];
           display: flex;
           justify-content: space-around;
           align-items: center;
-          /*background-color: #2f2fa2;*/
           min-height: 6vh;
      }
      .nav-links h4{
-          color: #f64c72;
+          color: black;
           font-size: 2rem;
           font-weight: bold;
           letter-spacing: 0.2rem;
@@ -29,16 +26,16 @@ const navitems = ["Home", "About", "Skills", "Projects"];
      .nav-links ul{
           display: flex;
           justify-content: space-evenly;
-          color: white;
+          color: black;
           list-style: none;
           width: 30%;
      }
      .nav-links ul li{
           font-size: 1.7rem;
-          color: white;
+          color: black;
      }
      .nav-links ul li a{
           text-decoration: none;
-          color: white;
+          color: black;
      }
 </style>
