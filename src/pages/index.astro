@@ -3,6 +3,7 @@ import { Icon } from 'astro-icon'
 import "../styles/global.css";
 import Navigation from "../components/Navigation.astro"; "../components/Navigation.astro";
 const title = "Welcome!";
+import memoji from "../assets/siteMemoji.jpg"
 ---
 
 <html lang="en">
@@ -24,6 +25,9 @@ const title = "Welcome!";
                <Icon name="mdi:github" class="h-10 w-10 rounded-full text-white" />
                <Icon name="mdi:linkedin" class="h-10 w-10 rounded-full text-white"/>
                <Icon name="mdi:at" class="h-10 w-10 rounded-full text-white"/>
+          </div>
+          <div>
+              <img src={memoji} alt="memoji of chinedum nmereole"> 
           </div>
           <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 	</body>
