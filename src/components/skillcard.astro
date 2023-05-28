@@ -2,10 +2,11 @@
 const { skill } = Astro.props;
 const { frameworks } = Astro.props;
 const { description } = Astro.props;
+const { iconname } = Astro.props
 import { Icon } from 'astro-icon'
 ---
 <li>
-     <div><Icon name="logos:python"/></div>
+     <div><Icon name={ iconname }/></div>
      <h2>{ skill }</h2>
      <h4>{ frameworks }</h4>
      <span>{ description }</span>
