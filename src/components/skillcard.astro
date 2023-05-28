@@ -1,0 +1,13 @@
+---
+const { skill } = Astro.props;
+const { frameworks } = Astro.props;
+const { description } = Astro.props;
+const { image } = Astro.props;
+---
+<li>
+     <div><img src={ image } alt="Skill Image"></div>
+     <h2>{ skill }</h2>
+     <h4>{ frameworks }</h4>
+     <span>{ description }</span>
+</li>
+

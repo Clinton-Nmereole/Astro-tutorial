@@ -4,6 +4,7 @@ import "../styles/global.css";
 import Navigation from "../components/Navigation.astro"; "../components/Navigation.astro";
 const title = "Welcome!";
 import memoji from "../assets/devMemoji2.png"
+import Slider from "../components/slider.astro"
 ---
 
 <html lang="en">
@@ -30,6 +31,7 @@ import memoji from "../assets/devMemoji2.png"
           content-center overflow-hidden">
                <img src={memoji} alt="memoji of chinedum nmereole" class="object-cover">
           </div>
+          <Slider />
           <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 	</body>
     
