@@ -17,28 +17,38 @@ import Slider from "../components/slider.astro"
 	</head>
 	<body>
           <Navigation/>
-          <div class="m-4 text-center p-10">
-               <h2 class="text-teal-300 text-6xl py-2 font-medium">Hello World and Welcome</h2>
-               <h3 class="text-neutral-50 text-2xl py-2">Software Engineer and Fullstack Developer</h3>
-               <p class="text-md leading-7 text-neutral-50 ml-20 mr-20">Welcome to my portfolio! As a recent graduate in software engineering, I am excited to showcase my skills and passion for creating innovative solutions. With a strong foundation in programming and a commitment to continuous learning, I am eager to contribute to a dynamic software engineering role. Thank you for visiting, and let's connect to explore potential opportunities.</p>
+          <div class="w-full h-screen text-center">
+               <div class="mx-auto max-w-7xl p-2 w-full h-full flex justify-center items-center">
+                    <div>
+                         <h2 class="text-tan text-6xl py-2 font-medium">Hello World, I'm <span class="text-red-950
+                         hover:text-7xl ease-in duration-300">Chinedum Nmereole</span>,</h2>
+                         <h3 class="text-tan text-4xl py-2">A Software Engineer and Fullstack Developer</h3>
+                         <p class="text-md max-w-[70%] m-auto leading-7 text-zinc-600 text-xl">I am a recent graduate in software engineering
+                         from Sam Houston State University, I am excited to showcase my skills and passion for creating innovative solutions. With a strong foundation in programming and a commitment to continuous learning, I am eager to contribute to a dynamic software engineering role. Thank you for visiting, and let's connect to explore potential opportunities.</p>
+                         <div class="m-2 p-2 flex content-center justify-center gap-12">
+                         <Icon name="mdi:github" class="h-10 w-10 rounded-full text-tan cursor-pointer hover:scale-125 hover:text-red-950" />
+                         <Icon name="mdi:linkedin" class="h-10 w-10 rounded-full text-tan cursor-pointer hover:scale-125 hover:text-red-950"/>
+                         <Icon name="mdi:at" class="h-10 w-10 rounded-full text-tan cursor-pointer hover:scale-125 hover:text-red-950"/>
+                    </div>
+               </div>
           </div>
-          <div class="m-2 p-2 flex content-center justify-center gap-12">
-               <Icon name="mdi:github" class="h-10 w-10 rounded-full text-teal-300" />
-               <Icon name="mdi:linkedin" class="h-10 w-10 rounded-full text-teal-300"/>
-               <Icon name="mdi:at" class="h-10 w-10 rounded-full text-teal-300"/>
-          </div>
-          <div class="relative mx-auto mt-28 bg-gradient-to-b from-amber-200 rounded-full w-100 h-100 flex justify-center
-          content-center overflow-hidden">
-               <img src={memoji} alt="memoji of chinedum nmereole" class="object-cover">
-          </div>
-          <div class="mt-24 text-center p-10">
-               <h2 class="text-teal-300 text-6xl py-2 font-medium">Skills</h2>
-          </div>
-          <div class="flex justify-center items-center mt-8 p-6">
-               <Slider class="mx-auto" />
+        
+          <div class="w-full md:h-screen flex items-center justify-center">
+               <div class="m-auto md:grid grid-cols-3 gap-12">
+                    <div class="col-span-2">
+                         <h2 class="text-tan text-5xl hover:scale-105 ease-in duration-200">About Me</h2>
+                    </div>
+                    <div class="relative mx-auto h-auto w-full flex justify-center content-center overflow-hidden
+                    shadow-xl shadow-darkgrain rounded-xl hover:scale-110 ease-in duration-300 bg-tan">
+                         <img src={memoji} alt="memoji of chinedum nmereole" class="object-cover">
+                    </div>
+               </div>
           </div>
           <div class="mt-24 text-center p-10">
                <h2 class="text-teal-300 text-6xl py-2 font-medium">Education</h2>
+               <div>
+                    
+               </div>
           </div>
 	</body>
     

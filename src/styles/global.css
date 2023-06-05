@@ -20,6 +20,7 @@ body {
      background-size: cover;
      width: 100%;
      background-position: center;
-     background-image: linear-gradient(to right, #141e30, #243b55);
+     background-color: #d7cec7;
+     /*background-image: linear-gradient(to right, #141e30, #243b55);*/
 }
 

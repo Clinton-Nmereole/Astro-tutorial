@@ -1,12 +1,12 @@
 ---
-const navitems = ["Clinton Nmereole"];
+const navitems = ["Home", "About", "Skills", "Contact"];
 
 ---
 
 <nav class="nav-links">
-     <h4>DevelopedByNmereole</h4>
+     <h4 class="hover:scale-105 ease-in duration-200">Chinedum Nmereole | Software Engineer | Fullstack Developer</h4>
      <ul>
-          {navitems.map((item) => <li>{item}</li>)}
+          {navitems.map((item) => <li class="hover:scale-110 hover:text-tan ease-in duration-200"><a href="">{item.toUpperCase()}</a></li>)}
      </ul>
 </nav>
 
@@ -15,12 +15,11 @@ const navitems = ["Clinton Nmereole"];
           display: flex;
           justify-content: space-between;
           align-items: center;
-          min-height: 6vh;
-          margin-bottom: 12rem;
+          min-height: 2vh;
      }
      .nav-links h4{
-          color: #fffdd0;
-          font-size: 2rem;
+          color: black;
+          font-size: 1.2rem;
           font-weight: bold;
           letter-spacing: 0.2rem;
           margin: 2rem;
@@ -28,13 +27,13 @@ const navitems = ["Clinton Nmereole"];
      .nav-links ul{
           display: flex;
           justify-content: space-evenly;
-          color: #fffdd0;
+          color: black;
           list-style: none;
-          width: 30%;
+          width: 25%;
      }
      .nav-links ul li{
-          font-size: 1.7rem;
-          color: #fffdd0;
+          font-size: 1.2rem;
+          color: black;
      }
 
 </style>
