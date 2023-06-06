@@ -3,10 +3,10 @@ const navitems = ["Home", "About", "Skills", "Contact"];
 
 ---
 
-<nav class="nav-links">
+<nav class="nav-links fixed w-full shadow-xl shadow-darkgrain bg-grain z-[100]">
      <h4 class="hover:scale-105 ease-in duration-200">Chinedum Nmereole | Software Engineer | Fullstack Developer</h4>
      <ul>
-          {navitems.map((item) => <li class="hover:scale-110 hover:text-tan ease-in duration-200"><a href="">{item.toUpperCase()}</a></li>)}
+          {navitems.map((item) => <li class="hover:scale-125 hover:text-tan ease-in duration-300"><a href={"#" + item}>{item.toUpperCase()}</a></li>)}
      </ul>
 </nav>
 

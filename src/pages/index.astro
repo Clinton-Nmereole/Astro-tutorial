@@ -16,8 +16,8 @@ import Slider from "../components/slider.astro"
 		<title>{title}</title>
 	</head>
 	<body>
-          <Navigation/>
-          <div class="w-full h-screen text-center">
+          <Navigation />
+          <div id="Home" class="w-full h-screen text-center">
                <div class="mx-auto max-w-7xl p-2 w-full h-full flex justify-center items-center">
                     <div>
                          <h2 class="text-tan text-6xl py-2 font-medium">Hello World, I'm <span class="text-red-950
@@ -33,10 +33,12 @@ import Slider from "../components/slider.astro"
                </div>
           </div>
         
-          <div class="w-full md:h-screen flex items-center justify-center">
-               <div class="m-auto md:grid grid-cols-3 gap-12">
+          <div id="About" class="w-full md:h-screen items-center flex p-2 py-16">
+               <div class="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
                     <div class="col-span-2">
-                         <h2 class="text-tan text-5xl hover:scale-105 ease-in duration-200">About Me</h2>
+                         <p class="tracking-wider flex justify-left items-left uppercase text-blackboard text-2xl font-bold hover:scale-110 ease-in
+                         duration-300">About</p>
+                         <h2 class="items-left flex justify-left text-tan text-4xl py-2">Where I'm from</h2>
                     </div>
                     <div class="relative mx-auto h-auto w-full flex justify-center content-center overflow-hidden
                     shadow-xl shadow-darkgrain rounded-xl hover:scale-110 ease-in duration-300 bg-tan">
@@ -44,7 +46,7 @@ import Slider from "../components/slider.astro"
                     </div>
                </div>
           </div>
-          <div class="mt-24 text-center p-10">
+          <div id="Skills" class="mt-24 text-center p-10">
                <h2 class="text-teal-300 text-6xl py-2 font-medium">Education</h2>
                <div>
                     

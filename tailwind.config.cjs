@@ -22,6 +22,7 @@ module.exports = {
                     'tan': '#c09580',
                     'blackboard':'#565656',
                     'darkgrain':"#ACA49F",
+                    'grain':"#d7cec7"
                },
           },
 	},
