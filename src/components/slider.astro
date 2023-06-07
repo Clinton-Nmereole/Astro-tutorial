@@ -2,12 +2,14 @@
 import Card from "./skillcard.astro"; 
 ---
 
-<div class="grid grid-flow-col w-full"> 
-     <ul class="grid grid-flow-col auto-cols-auto gap-16"> 
-          <Card skill="Python" frameworks="Django, Flask, FastAPI" description="Proficient in Python programming language, with experience in building web applications, data analysis, and automation scripts. Familiar with popular frameworks and libraries such as Django and Flask." iconname="logos:python" />
-          <Card skill="JavaScript" frameworks="Reactjs, Svelte" description="Skilled in JavaScript for front-end development, with expertise in creating interactive and dynamic web applications. Proficient in modern frameworks like React and Vue.js, and experienced in working with APIs and manipulating DOM elements." iconname="logos:javascript"/>
-          <Card skill="Go" description="Proficient in Go programming language, known for its simplicity and efficiency. Experienced in developing scalable backend systems and microservices. Familiar with Go's concurrency patterns and standard libraries." iconname="logos:go"/>
-          <Card skill="Java"description="Experienced in Java programming language, particularly in building enterprise-level applications. Proficient in object-oriented programming principles and frameworks such as Spring. Knowledgeable in Java's extensive ecosystem and tools." iconname="logos:java"/>
-          <Card skill="SQL" description=" Proficient in SQL, with expertise in writing complex queries, creating and modifying database schemas, and optimizing database performance. Skilled in working with relational databases such as MySQL, PostgreSQL, and Oracle." iconname="logos:sqlite"/>
+<div class="max-w-[1240px] py-4"> 
+     <ul class="grid grid-flow-row grid-cols-4 grid-rows-2 gap-12"> 
+          <Card skill="Python" iconname="logos:python" />
+          <Card skill="JavaScript" iconname="logos:javascript"/>
+          <Card skill="Go"  iconname="logos:go"/>
+          <Card skill="Java" iconname="logos:java"/>
+          <Card skill="SQL" iconname="logos:mysql-icon"/>
+          <Card skill="C++" iconname="logos:c-plusplus"/>
+          <Card skill="C#" iconname="logos:c-sharp" />
      </ul>
 </div>

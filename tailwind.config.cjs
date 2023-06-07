@@ -24,6 +24,11 @@ module.exports = {
                     'darkgrain':"#ACA49F",
                     'grain':"#d7cec7"
                },
+               fontFamily: {
+                    'Stardom': 'Stardom-Regular',
+                    'Chillax':['Chillax-Regular', 'Chillax-Medium', 'Chillax-Semibold', 'Chillax-Bold', 'Chillax-Light', 'Chillax-Extralight', 'Chillax-Variable'],
+                    'Array': ['Array-Regular', 'Array-Semibold', 'Array-Bold'],
+               }
           },
 	},
 	plugins: [],

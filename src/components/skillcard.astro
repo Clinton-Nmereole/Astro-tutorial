@@ -5,10 +5,8 @@ const { description } = Astro.props;
 const { iconname } = Astro.props
 import { Icon } from 'astro-icon'
 ---
-<li class="bg-amber-200 h-96 w-104 rounded-3xl overflow-hidden flex items-center justify-center flex-col">
-     <div><Icon name={ iconname } class="h-16 w-16 mb-8"/></div>
-     <h2 class="font-semibold text-2xl">{ skill }</h2>
-     <h4 class="text-l">{ frameworks }</h4>
-     <span class="m-6">{ description }</span>
+<li class="bg-grain shadow-xl shadow-darkgrain h-32 w-72 rounded-2xl mx-auto hover:scale-125 ease-in duration-300 hover:mx-auto">
+     <Icon name={ iconname } class="h-16 w-16 mx-auto"/>
+     <h2 class="text-tan font-[poppins] text-xl font-semibold py-4">{ skill }</h2>
 </li>
 
