@@ -11,12 +11,12 @@ import Slider from "../components/slider.astro"
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body>
-          <Navigation />
+          <Navigation class="sm:display-none" />
           <div id="Home" class="w-full h-screen text-center">
                <div class="mx-auto max-w-7xl p-2 w-full h-full flex justify-center items-center">
                     <div>
