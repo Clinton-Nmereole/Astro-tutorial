@@ -3,7 +3,7 @@ const navitems = ["Home", "About", "Skills", "Contact"];
 
 ---
 
-<nav class="hidden md:block nav-links fixed w-full shadow-xl shadow-darkgrain bg-grain z-[100]">
+<nav class="hidden md:flex nav-links fixed w-full shadow-xl shadow-darkgrain bg-grain z-[100]">
      <h4 class="hover:scale-105 ease-in duration-200 font-Chillax font-semibold animate-pulse">Chinedum Nmereole | Software Engineer | Fullstack Developer</h4>
      <ul class="hidden md:flex md:justify-evenly md:list-none md:color-black">
           {navitems.map((item) => <li class="hidden md:flex md:justify-between md:items-center hover:scale-125 hover:text-tan ease-in duration-300"><a href={"#" + item}
@@ -12,12 +12,7 @@ const navitems = ["Home", "About", "Skills", "Contact"];
 </nav>
 
 <style>
-     nav {
-          display: none;
-          @media (min-width: 768px) {
-               display: block;
-          }
-     }
+    
      .nav-links h4{
           color: black;
           font-size: 1.2rem;
