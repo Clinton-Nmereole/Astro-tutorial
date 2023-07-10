@@ -28,6 +28,9 @@ module.exports = {
                     'Stardom': 'Stardom-Regular',
                     'Chillax':['Chillax-Regular', 'Chillax-Medium', 'Chillax-Semibold', 'Chillax-Bold', 'Chillax-Light', 'Chillax-Extralight', 'Chillax-Variable'],
                     'Array': ['Array-Regular', 'Array-Semibold', 'Array-Bold'],
+               },
+               spacing : {
+                    '2.5': '0.625rem',
                }
           },
 	},
