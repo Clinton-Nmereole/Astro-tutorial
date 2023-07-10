@@ -30,7 +30,7 @@ module.exports = {
                     'Array': ['Array-Regular', 'Array-Semibold', 'Array-Bold'],
                },
                spacing : {
-                    '2.5': '0.7rem',
+                    '2.5': '0.725rem',
                }
           },
 	},
