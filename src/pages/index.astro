@@ -103,7 +103,9 @@ import Slider from "../components/slider.astro"
                     </div>
                </div>
           </div>
-    <Skeletonui client:visible/>
+    <div>
+      <Skeletonui client:only="svelte"/>
+    </div>
 	</body>
     
 </html>
