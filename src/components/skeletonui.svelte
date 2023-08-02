@@ -12,13 +12,11 @@
 </script>
 
 <AppShell>
-	<svelte:fragment slot="header">
 		<!-- App Bar -->
 		<AppBar>
-			<svelte:fragment slot="lead">
+      <div>
 				<strong class="text-3xl uppercase text-secondary-400">Test</strong>
-			</svelte:fragment>
+      </div>
 		</AppBar>
-	</svelte:fragment>
 	<!-- Page Route Content -->
 </AppShell>
