@@ -1,14 +1,13 @@
----
+<script lang="ts">
 import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
 
-// This contains the bulk of Skeletons required styles:
 import '@skeletonlabs/skeleton/styles/skeleton.css';
 
-// Finally, your application's global stylesheet (sometimes labeled 'app.css')
-import '../styles/global.css';
+import '../styles/global.css'
+
 
 import '../components/Navigation.astro';
----
+</script>
 
 <html lang="en">
 	<head>
