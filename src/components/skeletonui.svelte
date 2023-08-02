@@ -11,12 +11,4 @@
   import { AppShell, Appbar } from '@skeletonlabs/skeleton';
 </script>
 
-<AppShell>
-		<!-- App Bar -->
-		<AppBar>
-      <div>
-				<strong class="text-3xl uppercase text-secondary-400">Test</strong>
-      </div>
-		</AppBar>
-	<!-- Page Route Content -->
-</AppShell>
+
