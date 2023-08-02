@@ -20,7 +20,6 @@
     "threlte": "^3.13.1"
   },
   "devDependencies": {
-    "@skeletonlabs/skeleton": "^1.11.0",
     "@types/three": "^0.155.0"
   }
 }

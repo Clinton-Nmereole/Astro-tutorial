@@ -1,13 +1,23 @@
 ---
 import { Icon } from 'astro-icon'
-//import "../styles/global.css";
+import '@skeletonlabs/skeleton/styles/skeleton.css';
+import "../styles/global.css";
 import Navigation from "../components/Navigation.astro"; "../components/Navigation.astro";
 const title = "Welcome!";
 import memoji from "../assets/devMemoji2.png"
 import Slider from "../components/slider.astro"
-import SiteLayout from "../layouts/+layout.svelte"; 
 ---
-<SiteLayout>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+          <Navigation />
           <div id="Home" class="w-full h-screen text-center items-center mt-20 mb-12 md:mt-0 md:mb-0 ml-14 md:ml-0">
                <div class="md:mx-auto md:max-w-7xl p-2 w-full h-full flex justify-center items-center text-center">
                     <div>
@@ -96,4 +106,6 @@ import SiteLayout from "../layouts/+layout.svelte";
           </div>
           
 
-</SiteLayout>
+	</body>
+    
+</html>
