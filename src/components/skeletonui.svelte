@@ -11,4 +11,4 @@ import '../styles/global.css';
 import { ProgressBar } from '@skeletonlabs/skeleton';
 </script>
 
-<ProgressBar label="Progress Bar" value={70} max={100} />
+<ProgressBar label="Progress Bar" value={30} max={100} />
