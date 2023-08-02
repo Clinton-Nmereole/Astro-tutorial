@@ -5,7 +5,7 @@ module.exports = {
     "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}",
     require("path").join(
       require.resolve("@skeletonlabs/skeleton"),
-      "../**/*.{html,js,svelte,ts}"
+      "../**/*.{html,js,svelte,ts,astro}"
     ),
   ],
   theme: {
@@ -50,5 +50,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@skeletonlabs/skeleton/tailwind/skeleton.cjs")()],
+  plugins: [...require("@skeletonlabs/skeleton/tailwind/skeleton.cjs")()],
 };
