@@ -10,12 +10,28 @@ import '../styles/global.css';
 
 import { ProgressBar } from '@skeletonlabs/skeleton';
 
+import img1 from '../assets/AxumTodoScreenshot.png';
+
+import img2 from '../assets/GowikiScreenshot.png';
+
 let projects = ["Rust Todo App", "GoWiki", "Svelte Authentication", "LinkedIn Bot"]
+
+let urls = ["https://github.com/Clinton-Nmereole/AxumTodo", "https://github.com/Clinton-Nmereole/GoWiki", "https://github.com/Clinton-Nmereole/SvelteCreateAccountPage", "https://github.com/Clinton-Nmereole/LinkedInBot"]
+
+let images = [img1, img2, "", ""]
 
 </script>
 
-<div class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4 py-10">
-	  {#each projects as project}
-		  <div class="snap-start shrink-0 card py-20 w-40 md:w-80 text-center">{project}</div>
-	  {/each}
-</div>
+<div class="snap-x snap-mandatory scroll-smooth flex gap-2 pb-2 overflow-x-auto">
+		{#each images as image, i}
+			<a class="shrink-0 w-[28%] snap-start hover:scale-110" href={urls[i]} target="_blank">
+				<img
+					class="rounded-container-token hover:brightness-125 hover:contrast-125"
+					src={image}
+					alt="project name"
+					title={projects[i]}
+					loading="lazy"
+				/>
+			</a>
+		{/each}
+	</div>
