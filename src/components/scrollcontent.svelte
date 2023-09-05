@@ -14,11 +14,15 @@ import img1 from '../assets/AxumTodoScreenshot.png';
 
 import img2 from '../assets/GowikiScreenshot.png';
 
-let projects = ["Rust Todo App", "GoWiki", "Svelte Authentication", "LinkedIn Bot"]
+import img3 from '../assets/Newsbites_createAcc.png';
+
+import img4 from '../assets/stockdata.png';
+
+let projects = ["Rust Todo App", "GoWiki", "Svelte Authentication", "Stock Data Analysis"]
 
 let urls = ["https://github.com/Clinton-Nmereole/AxumTodo", "https://github.com/Clinton-Nmereole/GoWiki", "https://github.com/Clinton-Nmereole/SvelteCreateAccountPage", "https://github.com/Clinton-Nmereole/LinkedInBot"]
 
-let images = [img1, img2, "", ""]
+let images = [img1, img2, img3, img4]
 
 </script>
 
